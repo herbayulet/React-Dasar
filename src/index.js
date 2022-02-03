@@ -6,14 +6,18 @@ import reportWebVitals from "./reportWebVitals";
 import Body from "./components/Body/Body";
 import Header from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
+import Yutub from "./components/Yutub/Yutub";
 // import { Yutub } from "./components/Yutub/Yutub";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     <Home />
+    <hr />
     <Header />
     <Body />
+    <hr />
+    <Yutub />
   </React.StrictMode>,
   document.getElementById("root")
 );

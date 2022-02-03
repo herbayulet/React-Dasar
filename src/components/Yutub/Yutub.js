@@ -1,13 +1,3 @@
-// import React from "react";
-// import "./yutub.css";
-
-// export const Yutub = (props) => {
-//   return (
-//     <div className="yutub-wrapper">
-//       <p>Nama {props.nama}</p>
-//     </div>
-//   );
-// };
 import React, { Component } from "react";
 import Parsing from "../Parsing/Parsing";
 
